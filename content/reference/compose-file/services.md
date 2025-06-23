@@ -1746,12 +1746,12 @@ The mechanism used by Compose to delegate the service lifecycle to an external b
 
 For more information on using the `provider` attribute, see [Use provider services](/manuals/compose/how-tos/provider-services.md).
 
-### `type`
+#### `type`
 
 `type` attribute is required. It defines the external component used by Compose to manage setup and tear down lifecycle
 events.
 
-### `options`
+#### `options`
 
 `options` are specific to the selected provider and not validated by the compose specification
 
